@@ -4,14 +4,17 @@ import sys
 import time
 from datetime import datetime
 
-f = open('health_check.log', 'a')
-sys.stdout = f
 
 while True:
+  f = open('health_check.log', 'a')
+  sys.stdout = f
+
   print str(datetime.now())
   l2_link_check.l2_check() 
  
   print str(datetime.now())
   l3_bgp_check.bgp_check()
+  
+  f.close()
 
-  time.sleep(10) 
+  time.sleep(30) 

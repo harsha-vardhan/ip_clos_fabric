@@ -5,7 +5,6 @@ import get_cable_link
 
 def cable_generate(fabric_id, hostname):
   cable_link = get_cable_link.get_ip_cable_plan(hostname, fabric_id)
-#  print cable_link 
   f = open('cable-links.csv', 'w')
   sys.stdout = f
   
