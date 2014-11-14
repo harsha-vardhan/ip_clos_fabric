@@ -13,7 +13,7 @@ This will list all the ip fabrics in a REST server
 cable_link_generator.py 
 ------------------------
 creates a csv file with links between Spine and Leaf in a human readable form for a IP Fabric      
-cable_link_generator.py [-h] -f FABRIC_ID -s SERVER_HOST
+Usage: cable_link_generator.py [-h] -f FABRIC_ID -s SERVER_HOST
 
 ip_troubleshooting.py
 ----------------------
