@@ -6,12 +6,13 @@ All the different scripts are available in the "ip_clos_fabric/scripts"
 directory
 
 
-Different available scripts:
 
-1. list_ipfabrics.py - This will list all the ip fabrics in a REST server
+list_ipfabrics.py
+-----------------
+This will list all the ip fabrics in a REST server
 
-2. cable_link_generator.py - creates a csv file with links between Spine and Leaf 
-   in a human readable form for a Fabric
+cable_link_generator.py 
+creates a csv file with links between Spine and Leaf in a human readable form for a Fabric
    usage: cable_link_generator.py [-h] -f FABRIC_ID -s SERVER_HOST
 
 
