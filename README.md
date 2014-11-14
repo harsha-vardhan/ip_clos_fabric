@@ -10,8 +10,9 @@ Different available scripts:
 
 1. list_ipfabrics.py - This will list all the ip fabrics in a REST server
 
-2. cable_link_generator.py - creates a csv file with links between Spine and Leaf in a human readable form for a Fabric
-usage: cable_link_generator.py [-h] -f FABRIC_ID -s SERVER_HOST
+2. cable_link_generator.py - creates a csv file with links between Spine and Leaf 
+   in a human readable form for a Fabric
+   usage: cable_link_generator.py [-h] -f FABRIC_ID -s SERVER_HOST
 
 
 ip_troubleshooting.py - This will manually troubleshoot the IP Fabric for Layer 2 and Layer 3
